@@ -110,7 +110,7 @@ arLinks[104] = "asleep"
 arLinks[105] = "neverending_dream"
 arLinks[106] = "destroy"
 arLinks[107] = "destroy_me"
-arLinks[108] = "paradise"
+arLinks[108] = "mislead"
 arLinks[109] = "burned"
 arLinks[110] = "myself"
 arLinks[111] = "III"
@@ -199,3 +199,4 @@ arLinks[192] = "https:www.youtube.com/user/silentdork"
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
+
