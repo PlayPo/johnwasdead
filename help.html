@@ -1,35 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="icon" type="image/x-icon" href="icon.ico">
-
-
-    <style>
+  <link rel="icon" type="image/x-icon" href="icon.ico">
+<style>
 body {
-    background:black;
     background-image:url('andagain.gif');
-    background-size:90%;
-    background-repeat: no-repeat;
+    background-size:85%;
+    background-color: black;
+    background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center;
     height:100%;
     width:100%;
 }
-        </style>   
+</style>
 </head>
-<body>
+<audio autoplay loop>
+  <source src="help_me_out.mp3" type="audio/mp3">
+</audio>
 </body>
-<audio loop autoplay id="incipio">
-    <source src="help_me_out.mp3" type="audio/mpeg">
-    </audio>
-    <script type="text/javascript">
-        var murmuro = document.getElementById("incipio");
-        setTimeout(function() {
-        murmuro.play();
-        },500);
-    </script>
 </html>
