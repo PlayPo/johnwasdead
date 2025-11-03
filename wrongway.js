@@ -136,7 +136,7 @@ arLinks[129] = "get_out"
 arLinks[130] = "escape"
 arLinks[131] = "blood"
 arLinks[132] = "fakeworld"
-arLinks[133] = "run"
+arLinks[133] = "sky"
 arLinks[134] = "goway"
 arLinks[135] = "404"
 arLinks[136] = "404"
@@ -232,6 +232,7 @@ arLinks[225] = "https:www.youtube.com/user/silentdork"
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
+
 
 
 
