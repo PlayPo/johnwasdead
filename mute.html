@@ -1,29 +1,21 @@
 <html>
 <head>
-    <link rel="icon" type="image/x-icon" href="icon.ico">
-    <style>
-        body {
-            background:black;
-            background-image:url('listen.gif');
-            background-size:85%;
-            background-repeat:no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            height:100%;
-            width:100%;
-        }
-        </style>
-        </head>
+<link rel="icon" type="image/x-icon" href="icon.ico">
+<style>
+body {
+    background-image:url('listen.gif');
+    background-size:85%;
+    background-color: black;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:100%;
+    width:100%;
+}
 </style>
-<body>
+</head>
+<audio autoplay loop>
+<source src="mute.mp3" type="audio/mp3">
+</audio>
 </body>
-<audio loop autoplay id="incipio">
-    <source src="mute.mp3" type="audio/mpeg">
-    </audio>
-    <script type="text/javascript">
-        var murmuro = document.getElementById("incipio");
-        setTimeout(function() {
-        murmuro.play();
-        },500);
-    </script>
 </html>
