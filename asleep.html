@@ -1,33 +1,24 @@
-
 <html>
-    <head>
-        <link rel="icon" type="image/x-icon" href="icon.ico">
-         <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-    body {
-            background:black;
-    }
-    </style>
-    <title></title>
-    </head>
-    <body>
-    
-    <audio autoplay id="incipio">
-    <source src="sleeptalk.mp3" type="audio/mp3">
-    </audio>
-
-        <div class="centered"><img src="a_different_sleep.gif" height="288" width="214"> 
-</div>
-    
-    <script type="text/javascript">
-        var murmuro = document.getElementById("incipio");
-        setTimeout(function() {
-        murmuro.play();
-        },300);
-        var timer = setTimeout(function() {
+<head>
+<link rel="icon" type="image/x-icon" href="icon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="centered"><img src="a_different_sleep.gif" height="288" width="214"></div>
+</body>
+<audio autoplay loop>
+<source src="sleeptalk.mp3" type="audio/mp3">
+</audio>
+<script type="text/javascript">
+    var murmuro = document.getElementById("incipio");
+    setTimeout(function() {
+    murmuro.play();
+    },300);
+    var timer = setTimeout(function() {
             window.location='asleep/rememberme/index.html'
-        }, 9000);
-    </script>
-    
-    </body>
-    </html>
+    }, 8000);
+</script>
+</html>
+</body>
+</html>
+
