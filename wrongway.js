@@ -241,10 +241,17 @@ arLinks[234] = "without"
 arLinks[235] = "goaway"
 arLinks[236] = "vinctum"
 arLinks[237] = "say_goodbye"
-arLinks[238] = "https://www.youtube.com/user/silentdork"
+arLinks[238] = "mute"
+arLinks[239] = "misleading"
+arLinks[240] = "mister"
+arLinks[241] = "me_and_john"
+arLinks[242] = "down"
+arLinks[243] = "sky"
+arLinks[244] = "https://www.youtube.com/user/silentdork"
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
+
 
 
 
