@@ -195,7 +195,7 @@ arLinks[188] = "https://johnwasdead.com/imagine"
 arLinks[189] = "https://johnwasdead.com/fakeworld"
 arLinks[190] = "https://johnwasdead.com/mesic"
 arLinks[191] = "https://johnwasdead.com/safeheaven"
-arLinks[192] = "https://johnwasdead.com/36"
+arLinks[192] = "https://johnwasdead.com/III"
 arLinks[193] = "https://johnwasdead.com/anotherone"
 arLinks[194] = "https://johnwasdead.com/go_back"
 arLinks[195] = "https://johnwasdead.com/away"
@@ -251,6 +251,7 @@ arLinks[244] = "https://www.youtube.com/user/silentdork"
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
+
 
 
 
