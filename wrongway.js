@@ -228,10 +228,11 @@ arLinks[221] = "mister"
 arLinks[222] = "misleading"
 arLinks[223] = "hold_on"
 arLinks[224] = "get_out"
-arLinks[225] = "https:www.youtube.com/user/silentdork"
+arLinks[225] = "https://www.youtube.com/user/silentdork"
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
+
 
 
 
