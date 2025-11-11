@@ -248,10 +248,26 @@ arLinks[241] = "https://johnwasdead.com/me_and_john"
 arLinks[242] = "https://johnwasdead.com/down"
 arLinks[243] = "https://johnwasdead.com/sky"
 arLinks[244] = "https://johnwasdead.com/redeem"
-arLinks[245] = "https://www.youtube.com/user/silentdork"
+arLinks[245] = "https://johnwasdead.com/prison"
+arLinks[246] = "https://johnwasdead.com/prisoner"
+arLinks[247] = "https://johnwasdead.com/escape"
+arLinks[248] = "https://johnwasdead.com/leave"
+arLinks[249] = "https://johnwasdead.com/whoareyou"
+arLinks[250] = "https://johnwasdead.com/savemeplease"
+arLinks[251] = "https://johnwasdead.com/123"
+arLinks[252] = "https://johnwasdead.com/hurt"
+arLinks[253] = "https://johnwasdead.com/turnback"
+arLinks[254] = "https://johnwasdead.com/password"
+arLinks[255] = "https://johnwasdead.com/dead"
+arLinks[256] = "https://johnwasdead.com/kimsin"
+arLinks[257] = "https://johnwasdead.com/hellowhoareyou"
+arLinks[258] = "https://johnwasdead.com/mortuum"
+arLinks[259] = "https://johnwasdead.com/exit"
+arLinks[260] = "https://www.youtube.com/user/silentdork"
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
+
 
 
 
