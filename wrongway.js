@@ -145,7 +145,7 @@ arLinks[138] = "https://johnwasdead.com/idied"
 arLinks[139] = "https://johnwasdead.com/wearetrapped"
 arLinks[140] = "https://johnwasdead.com/breathe"
 arLinks[141] = "https://johnwasdead.com/404"
-arLinks[142] = "https://johnwasdead.com/forever"
+arLinks[142] = "https://johnwasdead.com/back"
 arLinks[143] = "https://johnwasdead.com/down"
 arLinks[144] = "https://johnwasdead.com/morí"
 arLinks[145] = "https://johnwasdead.com/pain"
@@ -238,7 +238,7 @@ arLinks[231] = "https://johnwasdead.com/head"
 arLinks[232] = "https://johnwasdead.com/wool"
 arLinks[233] = "https://johnwasdead.com/mister"
 arLinks[234] = "https://johnwasdead.com/without"
-arLinks[235] = "https://johnwasdead.com/goaway"
+arLinks[235] = "https://johnwasdead.com/back"
 arLinks[236] = "https://johnwasdead.com/vinctum"
 arLinks[237] = "https://johnwasdead.com/say_goodbye"
 arLinks[238] = "https://johnwasdead.com/mute"
@@ -260,13 +260,14 @@ arLinks[253] = "https://johnwasdead.com/turnback"
 arLinks[254] = "https://johnwasdead.com/password"
 arLinks[255] = "https://johnwasdead.com/dead"
 arLinks[256] = "https://johnwasdead.com/kimsin"
-arLinks[257] = "https://johnwasdead.com/hellowhoareyou"
+arLinks[257] = "https://johnwasdead.com/back"
 arLinks[258] = "https://johnwasdead.com/mortuum"
 arLinks[259] = "https://johnwasdead.com/exit"
 arLinks[260] = "https://www.youtube.com/user/silentdork"
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
+
 
 
 
