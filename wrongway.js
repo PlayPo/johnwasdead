@@ -3,28 +3,28 @@ var i;
 var arLinks = new Array();
 
 arLinks[0] = "https://johnwasdead.com/";
-arLinks[1] = "https://johnwasdead.com/neverending_dream";
-arLinks[2] = "https://johnwasdead.com/in_m_yhead";
-arLinks[3] = "https://johnwasdead.com/getout";
-arLinks[4] = "https://johnwasdead.com/lost_in_my_mind";
-arLinks[5] = "https://johnwasdead.com/misleading";
-arLinks[6] = "https://johnwasdead.com/underground";
-arLinks[7] = "https://johnwasdead.com/cant_swim";
-arLinks[8] = "https://johnwasdead.com/wool";
-arLinks[9] = "https://johnwasdead.com/fantasy";
-arLinks[10] = "https://johnwasdead.com/vice";
-arLinks[11] = "https://johnwasdead.com/mister";
-arLinks[12] = "https://johnwasdead.com/breathe";
-arLinks[13] = "https://johnwasdead.com/blood";
-arLinks[14] = "https://johnwasdead.com/asleep";
-arLinks[15] = "https://johnwasdead.com/down";
-arLinks[16] = "https://johnwasdead.com/lost_forever"
-arLinks[17] = "https://johnwasdead.com/occasions"
-arLinks[18] = "https://johnwasdead.com/fakeworld"
-arLinks[19] = "https://johnwasdead.com/blue_flame"
-arLinks[20] = "https://johnwasdead.com/imagine"
-arLinks[21] = "https://johnwasdead.com/hold_on"
-arLinks[22] = "https://johnwasdead.com/again"
+arLinks[1] = "https://johnwasdead.com/wearetrapped";
+arLinks[2] = "https://johnwasdead.com/prison";
+arLinks[3] = "https://johnwasdead.com/prisoner";
+arLinks[4] = "https://johnwasdead.com/cantmove";
+arLinks[5] = "https://johnwasdead.com/ishouldntbehere";
+arLinks[6] = "https://johnwasdead.com/idied";
+arLinks[7] = "https://johnwasdead.com/cantbreathe";
+arLinks[8] = "https://johnwasdead.com/ambegan";
+arLinks[9] = "https://johnwasdead.com/vasgevang";
+arLinks[10] = "https://johnwasdead.com/gevangene";
+arLinks[11] = "https://johnwasdead.com/gevangenis";
+arLinks[12] = "https://johnwasdead.com/recursion";
+arLinks[13] = "https://johnwasdead.com/leave";
+arLinks[14] = "https://johnwasdead.com/goaway";
+arLinks[15] = "https://johnwasdead.com/goaway";
+arLinks[16] = "https://johnwasdead.com/anotherone"
+arLinks[17] = "https://johnwasdead.com/hapis"
+arLinks[18] = "https://johnwasdead.com/tutuklu"
+arLinks[19] = "https://johnwasdead.com/moriens"
+arLinks[20] = "https://johnwasdead.com/mereor"
+arLinks[21] = "https://johnwasdead.com/back"
+arLinks[22] = "https://johnwasdead.com/blue_flame"
 arLinks[23] = "https://johnwasdead.com/oooooo"
 arLinks[24] = "https://johnwasdead.com/faking"
 arLinks[25] = "https://johnwasdead.com/try"
@@ -267,6 +267,7 @@ arLinks[260] = "https://www.youtube.com/user/silentdork"
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
+
 
 
 
