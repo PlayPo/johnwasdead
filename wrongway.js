@@ -72,7 +72,7 @@ arLinks[66] = "https://johnwasdead.com/focus";
 arLinks[67] = "https://johnwasdead.com/excursion";
 arLinks[68] = "https://johnwasdead.com/equa";
 arLinks[69] = "https://johnwasdead.com/go";
-arLinks[70] = "https://johnwasdead.com/help_me";
+arLinks[70] = "https://johnwasdead.com/lost_forever";
 arLinks[71] = "https://johnwasdead.com/excursion";
 arLinks[72] = "https://johnwasdead.com/misleading";
 arLinks[73] = "https://johnwasdead.com/equa";
@@ -87,7 +87,7 @@ arLinks[81] = "https://johnwasdead.com/wool";
 arLinks[82] = "https://johnwasdead.com/asleep";
 arLinks[83] = "https://johnwasdead.com/focus";
 arLinks[84] = "https://johnwasdead.com/help";
-arLinks[85] = "https://johnwasdead.com/saved";
+arLinks[85] = "https://johnwasdead.com/lost_forever";
 arLinks[86] = "https://johnwasdead.com/pray_for_rest";
 arLinks[87] = "https://johnwasdead.com/out";
 arLinks[88] = "https://johnwasdead.com/3";
@@ -96,7 +96,7 @@ arLinks[90] = "https://johnwasdead.com/terror";
 arLinks[91] = "https://johnwasdead.com/my_dear";
 arLinks[92] = "https://johnwasdead.com/gone";
 arLinks[93] = "https://johnwasdead.com/vice";
-arLinks[94] = "https://johnwasdead.com/smoke";
+arLinks[94] = "https://johnwasdead.com/lost_forever";
 arLinks[95] = "https://johnwasdead.com/404";
 arLinks[96] = "https://johnwasdead.com/me_and_john";
 arLinks[97] = "https://johnwasdead.com/dream";
@@ -194,7 +194,7 @@ arLinks[187] = "https://johnwasdead.com/terror";
 arLinks[188] = "https://johnwasdead.com/thats_ok";
 arLinks[189] = "https://johnwasdead.com/down";
 arLinks[190] = "https://johnwasdead.com/occasions";
-arLinks[191] = "https://johnwasdead.com/safeheaven";
+arLinks[191] = "https://johnwasdead.com/lost_forever";
 arLinks[192] = "https://johnwasdead.com/vice";
 arLinks[193] = "https://johnwasdead.com/anotherone";
 arLinks[194] = "https://johnwasdead.com/go_back";
@@ -289,6 +289,7 @@ arLinks[281] = "https://www.youtube.com/user/silentdork";
 
 i = Math.floor( Math.random() * arLinks.length );
 window.location = arLinks[i];
+
 
 
 
