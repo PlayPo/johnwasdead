@@ -1,5 +1,7 @@
 body {
     color: red;
+    background: url('index.gif') 50% 50% no-repeat fixed; 
+    background-size: 50%;
     background-color: black;
 }
 
