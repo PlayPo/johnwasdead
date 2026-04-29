@@ -1,12 +1,10 @@
 body {
-    color: red;
-    background: url('index.gif') 50% 50% no-repeat fixed; 
-    background-size: 50%;
+    color: rgb(0, 0, 0);
     background-color: black;
 }
 
 h1 {
-    color: navy;
+    color: rgb(0, 0, 0);
     margin-left: 20px;
 }
 
@@ -17,3 +15,4 @@ h1 {
   margin-top: -50px;
   margin-left: -100px;
 }
+
