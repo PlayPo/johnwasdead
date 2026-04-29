@@ -5,4 +5,4 @@ const autoScroll = setInterval(() => {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         clearInterval(autoScroll);
     }
-}, 1);
+}, 0.1);
