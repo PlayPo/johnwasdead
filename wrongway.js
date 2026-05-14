@@ -284,6 +284,7 @@ arLinks[277] = "https://johnwasdead.com/focus";
 arLinks[278] = "https://johnwasdead.com/getout";
 arLinks[279] = "https://johnwasdead.com/go_back";
 arLinks[280] = "https://johnwasdead.com/gone";
+arLinks[281] = "https://johnwasdead.com/hole";
 
 
 i = Math.floor( Math.random() * arLinks.length );
