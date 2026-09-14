@@ -6,15 +6,19 @@
         const realPages = ['3', 'again', 'anotherone', 'asleep', 'back', 'blood', 'blue_flame', 'breathe', 'cant_swim', 'destroy', 'down', 'dream', 'equa', 'excursion', 'fakeworld', 'faking', 'fantasy', 'flesh', 'focus', 'getout', 'go_back', 'gone', 'head', 'help', 'hold_on', 'hole', 'imagine', 'in_m_yhead', 'lost_in_my_mind', 'lost_forever', 'my_dear', 'misleading', 'me_and_john', 'mister', 'mute', 'neverending_dream', 'occasions', 'oooooo', 'paradise', 'pray_for_rest', 'rosa', 'run', 'say_goodbye', 'sky', 'terror', 'thats_ok', 'try', 'underground', 'vice', 'where', 'without', 'wool', 'years']; 
         let pageName = path.replace(/\//g, '');
 
-        if (path.endsWith('/') && realPages.includes(pageName)) {
-            let realPage = '/' + pageName + '.html';
-            fetch(realPage)
-                .then(response => response.text())
-                .then(html => {
-                    document.open();
-                    document.write(html);
-                    document.close();
-                });
+        if (realPages.includes(pageName)) {
+            if (!path.endsWith('/')) {
+                window.location.replace(window.location.origin + path + '/');
+            } else {
+                let realPage = '/' + pageName + '.html';
+                fetch(realPage)
+                    .then(response => response.text())
+                    .then(html => {
+                        document.open();
+                        document.write(html);
+                        document.close();
+                    });
+            }
         } else {
             let script = document.createElement('script');
             script.src = '/wrongway.js';
